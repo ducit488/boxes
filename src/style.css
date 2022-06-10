@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px;
+}
+.mainContent {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px ;
+}
